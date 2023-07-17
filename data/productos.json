@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop HP 15T-DK200",
+    "precio": 1870,
+    "categoria": "Laptops",
+    "img": "laptops/laptop01.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Laptop HP Victus 16-D0523",
+    "precio": 1450,
+    "categoria": "Laptops",
+    "img": "laptops/laptop02.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Laptop HP Victus 16-20524",
+    "precio": 2870,
+    "categoria": "Laptops",
+    "img": "laptops/laptop03.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Laptop Lenovo Ideapad 3",
+    "precio": 3560,
+    "categoria": "Laptops",
+    "img": "laptops/laptop04.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Laptop MSI Katana GF76",
+    "precio": 4200,
+    "categoria": "Laptops",
+    "img": "laptops/laptop05.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Laptop Asus Strix G17",
+    "precio": 2650,
+    "categoria": "Laptops",
+    "img": "laptops/laptop06.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Laptop Asus Tuf Dash F15",
+    "precio": 3270,
+    "categoria": "Laptops",
+    "img": "laptops/laptop07.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Laptop HP 16-D0542 G9",
+    "precio": 3450,
+    "categoria": "Laptops",
+    "img": "laptops/laptop08.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Monitor Samsung 24 Smart",
+    "precio": 2380,
+    "categoria": "Monitores",
+    "img": "monitores/monitor01.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Monitor Samsung 27 Smart",
+    "precio": 3250,
+    "categoria": "Monitores",
+    "img": "monitores/monitor02.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Monitor LG 27 27UL500",
+    "precio": 1990,
+    "categoria": "Monitores",
+    "img": "monitores/monitor03.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Monitor LG 27 27MP400",
+    "precio": 5640,
+    "categoria": "Monitores",
+    "img": "monitores/monitor04.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Auricular Gamer Halion S2",
+    "precio": 186,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular01.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Auricular Xtech XTH541",
+    "precio": 219,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular02.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Auricular Micronics Lúdico",
+    "precio": 145,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular03.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Auricular Antryx CS Thunder",
+    "precio": 106,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular04.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Auricular Logitech G335",
+    "precio": 134,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular05.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Auricular Jabra Evolve2",
+    "precio": 175,
+    "categoria": "Auriculares",
+    "img": "auriculares/auricular06.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Monitor LG 20 2KP100",
+    "precio": 4200,
+    "categoria": "Monitores",
+    "img": "monitores/monitor04.jpg"
+  }
+]

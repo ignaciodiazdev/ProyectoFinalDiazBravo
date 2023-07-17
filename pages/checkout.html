@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShop - Resumen de Carrito</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <i class='bx bxs-store-alt'></i>
+            <span>CyberShop</span>
+        </a>
+        <a class="seguirComprando" href="tienda.html">Seguir Comprando</a>
+    </header>
+    <main class="checkout">
+        <h2>Registro de Compra</h2>
+        <section class="datos">
+            <div class="form-dato">
+                <label>Nombres:</label>
+                <input type="text" id="inputNombre" placeholder="Ingrese su Nombre">
+            </div>
+            <div class="form-dato">
+                <label>Correo:</label>
+                <input type="email" id="inputCorreo" placeholder="Ingrese su Correo ">
+            </div>
+            <div class="form-dato">
+                <label>Dirección:</label>
+                <input type="text" id="inputDireccion" placeholder="Ingrese su Dirección">
+            </div>
+
+            <div class="form-dato">
+                <label>Teléfono:</label>
+                <input type="tel" id="inputTelefono" placeholder="Ingrese su Teléfono">
+            </div>
+        </section>
+        <section class="containerTabla">
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio Unitario</th>
+                            <th>Cantidad</th>
+                            <th>SubTotal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaDatos">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <div id="precioTotal"></div>
+        <div class="containerRegistroPedido">
+            <button id="registroPedido">Registrar Pedido</button>
+        </div>
+    </main>
+    <footer>
+        <span>Todos los Derechos Reservados - Vladimir Ignacio Diaz Bravo</span>
+    </footer>
+    <script src="../js/checkout.js"></script>
+</body>
+</html>
