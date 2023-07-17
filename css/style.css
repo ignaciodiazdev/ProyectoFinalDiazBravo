@@ -81,6 +81,24 @@ table{
     max-width: 100%;
     padding: 10px 20px;
 }
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #cacaca;
+    padding: 0 30px;
+}
+.nosotros h2{
+    margin-top: 20px;
+}
+.nosotros img{
+    align-self: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.nosotros p{
+    text-align: center;
+}
 @media (min-width: 590px) {
     .bienvenida{
         flex-direction: row;
@@ -407,7 +425,7 @@ header{
     .barra-menu{
         position: absolute;
         top: 100%;
-        right: 2%;
+        right: -100%;
         width: 210px;
         min-height: 100%;
         background: var(--main-color);
